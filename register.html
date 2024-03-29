@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="register.css">
+    <title>Halaman Register</title>
+</head>
+
+<body>
+    <h2>Register Akun Game</h2>
+    <div class="container">
+        <form action="register.php" method="post">
+            <label>Nama Akun</label>
+            <br>
+            <input type="text" name="name" class="inputText" placeholder="nama akun">
+            <br><br>
+            <label>Username</label>
+            <br>
+            <input type="text" name="user_name" class="inputText" placeholder="username">
+            <br><br>
+            <label>Password</label>
+            <br>
+            <input type="password" name="password" class="inputText" placeholder="password">
+            <br><br>
+
+            <a href="login.html">
+                <button type="submit" name="register" id="regButton" class="btn-input">Register</button>
+            </a>
+            <p> Sudah punya akun?
+                <a href="login.html">Login di sini</a>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

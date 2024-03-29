@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>user dashboard</title>
+    <link rel="stylesheet" href="Profil.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <span class="logo_name">MiniGame</span>
+        </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="dashboard.html" class="active">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Profil</span>
+                    </a>
+                </li>
+                <li class="log_out">
+                    <a href="login.html">
+                        <i class='bx bx-log-out'></i>
+                        <span type="submit" class="links_name">Log out</span>
+                    </a>
+                </li>
+            </ul>
+    </div>
+    <section class="home-section">
+        <nav>
+            <div class="sidebar-button">
+                <i class='bx bx-menu sidebarBtn'></i>
+                <span class="dashboard">PROFIL</span>
+            </div>
+ 
+        </nav>
+
+        <div class="home-content">
+            <div class="overview-boxes">
+                <div class="box">
+                    <div class="right-side">
+                        <center>
+                            <img src="gambar/Arqam.jpg" alt="" width="100px">
+                        <p>MUHAMMAD ARQAM S. <br> 210209501077</p>
+                        </center>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="right-side">
+                        <center>
+                            <img src="gambar/Roman.jpg" alt="" width="100px">
+                        <p>ROMAN FEBRIAN D. <br> 210209501071</p>
+                        </center>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="right-side">
+                        <img src="gambar/Fadlan.jpg" alt="" width="100px">
+                        <center><p>MUH.FADLAN <br> 210209502051</p></center>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="right-side">
+                        <center>
+                        <img src="Gambar/Nunu.jpg" alt="" width="100px">
+                       <p>NURUL ADITYA PRATIWI <br> 210209500036</p>
+                    </center>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="right-side">
+                        <img src="gambar/Riska.png" alt="" width="100px">
+                        <center>
+                            <p >RISKA SRI RAHMAH <br> 210209501026</p>
+                        </center>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="right-side">
+                        <center>
+                            <img src="gambar/Aya.jpg" alt="" width="100px">
+                        <p>ALYA PUTRI P. BATSERAN <br> 210209501028</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".sidebarBtn");
+        sidebarBtn.onclick = function () {
+            sidebar.classList.toggle("active");
+            if (sidebar.classList.contains("active")) {
+                sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+            } else
+                sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+        }
+    </script>
+
+</body>
+
+</html>

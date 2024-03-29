@@ -1,0 +1,63 @@
+body {
+    background-color: #194939;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 33px;
+    text-align: center;
+    padding: 10px;
+    color: #7fbd3a;
+    font-size: 40px;
+}
+
+p {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+a {
+    color: #194939;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label {
+    color: #194939;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inputText {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 8px;
+}
+
+.container {
+    width: 350px;
+    margin: auto;
+    margin: 10 0 0 450px;
+    overflow: hidden;
+    padding: 75px;
+    border-radius: 10px;
+    background: #7fbd3a;
+}
+
+#regButton {
+    width: 310px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 7px;
+    color: #194939;
+    font-size: 16px;
+}
+
+#regButton:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
