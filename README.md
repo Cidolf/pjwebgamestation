@@ -1,1 +1,3 @@
-This Repo for final project assignment from college
+# Project website
+
+This Repository for final project assignment from college
